@@ -1,0 +1,110 @@
+.contactUs, .contact__list, .list-data, .contact-information, .contact-request, .request-blank, .blank-list, .request__inputs, .inputs-values{
+    display: flex;
+    gap: 20px;
+}
+
+.contactUs, .contact-request{
+    flex-direction: column;
+    align-items: center;
+}
+.contact-information{
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.contact-request{
+    width: 100%;
+    flex-direction: column;
+}
+.contact__list{
+    flex-direction: column;
+}
+.list__icon{
+    width: 18px;
+}
+.list-data{
+    align-items: center;
+}
+.list__details{
+    font-size: 1.2em;
+    font-family: 'Montserrat-regular',sans-serif;
+    font-weight: 400;
+}
+.contact__infoImg{
+    width: calc(100% - 50%);
+    height: 100%;
+}
+
+.request-blank{
+    justify-content: space-between;
+    padding: 20px 30px;
+    border: 4px solid white;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.blank-list, .request__inputs, .inputs-values{
+    align-items: start;
+    flex-direction: column;
+}
+.request__inputs{
+    gap: 30px;
+    padding-bottom: 10px;
+}
+.inputs-values{
+    gap: 10px;
+}
+.blank-img{
+    width: 100%;
+}
+.blank-imgContent{
+    width: calc(100% - 50%);
+}
+.values-label{
+    font-size: 1.5em;
+    font-family: 'Montserrat-regular',sans-serif;
+    font-weight: 300;
+}
+.values-input{
+    color: black;
+    font-size: 1.2em;
+    padding: 12px 10px;
+}
+.values-input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.blank__contact{
+    width: 100%;
+    font-size: 1.3em;
+}
+.request-heading{
+    font-size: 2em;
+    font-family: 'Montserrat-regular', sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+@media (max-width:430px) {
+    .contact-information{
+        flex-direction: column-reverse;
+    }
+    .contact__list{
+        width: 100%;
+    }
+    .contact__infoImg{
+        width: 100%;
+    }
+    .request-blank{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .blank-imgContent{
+        width: 100%;
+    }
+    .values-label{
+        font-size: 1.1em;
+    }
+    .values-input{
+        font-size: 0.9em;
+    }
+}
