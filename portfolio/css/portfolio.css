@@ -1,23 +1,16 @@
-.main-heading{
-    width: calc(100% - 40%);
-    font-size: 1.8em;
-    font-family: 'MontserratAlt',sans-serif;
-    font-weight: 600;
-}
-.slider{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-}
+/* Wrapper Classes */
+
 .portfolio-wrapper{
     height: 100vh;
 }
+
 .portfolio-background{
+    height: 100vh;
     width: 100%;
-    height: 100%;
+    object-fit: cover;
 }
+
+/*  Main Classes */
 .main{
     display: flex;
     flex-direction: column;
@@ -25,6 +18,25 @@
     height: 50vh;
     justify-content: center;
 }
+
+.main-heading{
+    width: calc(100% - 40%);
+    font-size: 1.8em;
+    font-family: 'MontserratAlt',sans-serif;
+    font-weight: 600;
+}
+
+/* Section slider classes */
+
+.slider{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+
 .slider-list{
     display: flex;
     height: 100%;
@@ -73,13 +85,30 @@ h3.transparent{
 .prev, .next {
     display: block;
 }
-.portfolio-background{
-    height: 100vh;
-    width: 100%;
-    object-fit: cover;
+
+/*  Adaptive */
+@media (max-width:1024px) {
+    .portfolio-wrapper, .portfolio-background{
+        height: 100%;
+    }
+    .main{
+        justify-content: center;
+        align-items: center;
+    }
+    .main-heading{
+        text-align: center;
+        font-size: 2em;
+    }
+    .slider-heading{
+        font-size: 2em;
+        padding-top: 40px;
+    }
 }
 
 @media (max-width:430px) {
+    .portfolio-wrapper, .portfolio-background{
+        height: 100%;
+    }
     .main{
         justify-content: center;
         align-items: center;

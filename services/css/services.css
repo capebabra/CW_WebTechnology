@@ -1,22 +1,21 @@
-div.modal__blur{
-    filter: blur(15px);
-    pointer-events: none;
-}
-body.modal__overflow{
-    overflow: hidden;
-}
+/* All classes */
+
 .services__description, .main, .main__services, .services__contentInfo, .services-content{
     display: flex;
     gap: 20px;
 }
+.services__description, .main{
+    justify-content: center;
+}
+
+/*  Main classes */
+
 .main{
     flex-direction: column;
     align-items: center;
     position: relative;
 }
-.services__description, .main{
-    justify-content: center;
-}
+
 .main__services{
     display: flex;
     flex-direction: column;
@@ -27,6 +26,9 @@ body.modal__overflow{
     height: 100% ;
     position: relative;
 }
+
+/* Main services Classes */
+
 .services-content{
     flex-direction: column;
 }
@@ -82,6 +84,16 @@ body.modal__overflow{
     height: 100%;
 }
 
+/* Main modal Classes */
+
+div.modal__blur{
+    filter: blur(15px);
+    pointer-events: none;
+}
+body.modal__overflow{
+    overflow: hidden;
+}
+
 .modalPage{
     display: none;
     position: absolute;
@@ -127,6 +139,36 @@ body.modal__overflow{
     text-align: center;
     padding-bottom: 20px;
 }
+
+/* Adaptive */
+
+@media (max-width: 1024px) {
+    .services__description{
+        flex-wrap: wrap;
+    }
+    .services__contact{
+        width: 100%;
+    }
+    .modalPage{
+        width: 90%;
+    }
+    .modalPage-text{
+        font-size: 2em;
+    }
+    .main__services{
+        width: calc(100% - 60%);
+    }
+    .services__info{
+        font-size: 1.5em;
+    }
+    .services__description{
+        gap: 50px;
+    }
+    .services__details, .services__contact{
+        font-size: 1.5em;
+    }
+}
+
 @media (max-width: 430px) {
     .services__description{
         flex-wrap: wrap;

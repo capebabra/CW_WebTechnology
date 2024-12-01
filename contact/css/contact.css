@@ -1,3 +1,5 @@
+/* General Classes */
+
 .contactUs, .contact__list, .list-data, .contact-information, .contact-request, .request-blank, .blank-list, .request__inputs, .inputs-values{
     display: flex;
     gap: 20px;
@@ -7,6 +9,14 @@
     flex-direction: column;
     align-items: center;
 }
+
+.blank-list, .request__inputs, .inputs-values{
+    align-items: start;
+    flex-direction: column;
+}
+
+/* Main contact information classes */
+
 .contact-information{
     width: 100%;
     justify-content: space-between;
@@ -35,6 +45,9 @@
     height: 100%;
 }
 
+
+/*  Main contact request classes */
+
 .request-blank{
     justify-content: space-between;
     padding: 20px 30px;
@@ -43,10 +56,7 @@
     align-items: center;
 }
 
-.blank-list, .request__inputs, .inputs-values{
-    align-items: start;
-    flex-direction: column;
-}
+
 .request__inputs{
     gap: 30px;
     padding-bottom: 10px;
@@ -84,6 +94,48 @@
     font-weight: 400;
     padding-bottom: 20px;
 }
+
+/* Adaptive classes */
+
+@media (max-width:1024px) {
+    .contact-information{
+        flex-direction: column-reverse;
+    }
+    .contact__list, .contact__infoImg, .blank-list, .request__inputs{
+        width: 100%;
+    }
+    .request-blank{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .blank-imgContent, .request-blank{
+        width: 80%;
+    }
+    .values-label, .list__details{
+        font-size: 2em;
+    }
+    .request-heading{
+        font-size: 3em;
+    }
+    .values-input, .values-label{
+        font-size: 2em;
+    }
+    .values-input{
+        padding-right: 40px;
+    }
+    .contact-information, .contact__list{
+        gap: 40px;
+    }
+    .blank__contact{
+        width: 50%;
+        font-size: 2em;
+        margin-bottom: 20px
+    }
+    .blank-list, .request__inputs{
+        align-items: center;
+    }
+}
+
 @media (max-width:430px) {
     .contact-information{
         flex-direction: column-reverse;
@@ -102,13 +154,23 @@
         font-size: 1em;
     }
     .request-heading{
-        font-size: 1.4em;
+        font-size: 2em;
     }
     .values-input{
-        font-size: 0.9em;
+        font-size: 1.2em;
     }
     .values-input{
         padding-right: 40px;
+    }
+    .contact__list{
+        gap: 20px;
+    }
+    .blank-imgContent, .request-blank{
+        width: 100%;
+    }
+    .blank__contact{
+        width: 100%;
+        font-size: 1.2em;
     }
 }
 @media (max-width:390px) {

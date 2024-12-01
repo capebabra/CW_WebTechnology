@@ -1,7 +1,16 @@
+/* General Classes */
+
 .testimonials-staff, .testimonials, .staff-member, .member-nameContent,.testimonials-qa, .qa-list   {
     display: flex;
     gap: 20px;
 }
+
+.member__middleName, .member__name,.member-comment, .testimonials__heading, .questions, .answers  {
+    font-family: 'Montserrat-light',sans-serif;
+    font-weight: 300;
+}
+/*  Main classes */
+
 .testimonials{
     flex-direction: column;
 }
@@ -17,7 +26,10 @@
     border-radius: 10px;
     padding: 20px 15px;
     height: 160px;
-    /* border-image: linear-gradient(112deg, #FECF03, #D90663);
+    /* 
+    Another version of linear-gradient implementation to border, it won't change the border-radius
+
+    border-image: linear-gradient(112deg, #FECF03, #D90663);
     border-width: 4px;
     border-style: solid;
     border-image-slice: 1; */
@@ -37,10 +49,7 @@
     gap: 10px;
     align-items: center;
 }
-.member__middleName, .member__name,.member-comment, .testimonials__heading, .questions, .answers  {
-    font-family: 'Montserrat-light',sans-serif;
-    font-weight: 300;
-}
+
 .member__middleName{
     padding: 5px 10px;
     font-size: 1.1em;
@@ -86,12 +95,54 @@
     font-size: 0.9em;
 }
 
+/* Adaptive */
+
+@media (max-width:1024px) {
+    .staff-member{
+        width: 40%;
+    }
+    .staff-member{
+        height: 100%;
+    }
+    .member__middleName{
+        font-size: 1.8em;
+    }
+    .member__name{
+        font-size: 1.6em;
+    }
+    .member-comment{
+        font-size: 1.2em;
+    }
+    .questions{
+        font-size: 2em;
+    }
+    .answers{
+        font-size: 1.5em;
+    }
+    .testimonials{
+        gap: 0;
+    }
+    .testimonials__heading{
+        font-size: 3em;
+    }
+}
+
 @media (max-width:430px) {
+    
     .staff-member{
         width: 100%;
     }
     .staff-member{
-        height: 180px;
+        height: 100%;
+    }
+    .member__middleName{
+        font-size: 1.5em;
+    }
+    .member__name{
+        font-size: 1.4em;
+    }
+    .member-comment{
+        font-size: 1em;
     }
     .questions{
         font-size: 1.1em;
@@ -99,7 +150,7 @@
     .answers{
         font-size: 0.75em;
     }
-    .testimonials{
-        gap: 0;
+    .testimonials__heading{
+        font-size: 2em;
     }
 }
