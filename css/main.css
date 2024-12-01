@@ -114,10 +114,12 @@
 @media (max-width:430px) {
     .main, .main-background{
         height: 100%;
+        align-items: center;
         justify-content: start;
     }
     .main-contact{
-        width: calc(100% - 50%);
+        width: calc(100% - 60%);
+        font-size: 1.2emß;
         margin-bottom: 40px;
     }
     .content-elements{
@@ -126,6 +128,9 @@
     }
     .details-heading{
         padding: 10px;
+    }
+    .main-heading, .main-subheading{
+        text-align: center;
     }
 }
 
