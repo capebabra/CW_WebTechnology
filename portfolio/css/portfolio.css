@@ -81,19 +81,14 @@ h3.transparent{
 
 @media (max-width:430px) {
     .main{
-        height: auto;
-    }
-    .portfolio-background{
-        height: 100%;
-    }
-    .slider-heading{
-        padding-top: 15px;
-        font-size: 1.2em;
+        justify-content: center;
+        align-items: center;
     }
     .main-heading{
-        padding: 20px 0;
+        text-align: center;
     }
-    .portfolio-wrapper{
-        height: 70vh;
+    .slider-heading{
+        font-size: 1.2em;
+        padding-top: 20px;
     }
 }

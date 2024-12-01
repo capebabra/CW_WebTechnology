@@ -90,4 +90,16 @@
     .staff-member{
         width: 100%;
     }
+    .staff-member{
+        height: 180px;
+    }
+    .questions{
+        font-size: 1.1em;
+    }
+    .answers{
+        font-size: 0.75em;
+    }
+    .testimonials{
+        gap: 0;
+    }
 }

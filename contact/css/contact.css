@@ -88,10 +88,7 @@
     .contact-information{
         flex-direction: column-reverse;
     }
-    .contact__list{
-        width: 100%;
-    }
-    .contact__infoImg{
+    .contact__list, .contact__infoImg, .blank-list, .request__inputs{
         width: 100%;
     }
     .request-blank{
@@ -101,10 +98,24 @@
     .blank-imgContent{
         width: 100%;
     }
-    .values-label{
-        font-size: 1.1em;
+    .values-label, .list__details{
+        font-size: 1em;
+    }
+    .request-heading{
+        font-size: 1.4em;
     }
     .values-input{
         font-size: 0.9em;
+    }
+    .values-input{
+        padding-right: 40px;
+    }
+}
+@media (max-width:390px) {
+    .list__details{
+        font-size: 0.9em;
+    }
+    .values-input{
+        padding-right: 20px;
     }
 }
