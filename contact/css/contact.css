@@ -37,7 +37,7 @@
 }
 .list__details{
     font-size: 1.2em;
-    font-family: 'Montserrat-regular',sans-serif;
+    font-family: 'Montserrat-regular';
     font-weight: 400;
 }
 .contact__infoImg{
@@ -72,7 +72,7 @@
 }
 .values-label{
     font-size: 1.5em;
-    font-family: 'Montserrat-regular',sans-serif;
+    font-family: 'Montserrat-regular';
     font-weight: 300;
 }
 .values-input{
@@ -90,7 +90,7 @@
 }
 .request-heading{
     font-size: 2em;
-    font-family: 'Montserrat-regular', sans-serif;
+    font-family: 'Montserrat-regular';
     font-weight: 400;
     padding-bottom: 20px;
 }

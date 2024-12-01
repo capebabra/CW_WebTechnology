@@ -40,13 +40,13 @@
 }
 .services__heading{
     font-size: 1.5em;
-    font-family: 'Montserrat-regular', sans-serif;
+    font-family: 'Montserrat-regular';
     font-weight: 400;
     padding-bottom: 10px;
 }
 .services__info{
     font-size: 0.9em;
-    font-family: 'Montserrat-light', sans-serif;
+    font-family: 'Montserrat-light';
     font-weight: 200;
 }
 .services__more{
@@ -65,7 +65,7 @@
     padding: 8px 10px;
     border-radius: 5px;
     background: linear-gradient(to right, #030F19, #2A465C);
-    font-family: 'Montserrat-light', sans-serif;
+    font-family: 'Montserrat-light';
     font-weight: 400;
     box-shadow: 0px 0px 8px rgb(52, 87, 113);
     width: 100%;
@@ -122,19 +122,19 @@ body.modal__overflow{
 }
 .modalPage-heading{
     font-size: 2em;
-    font-family: 'Montserrat-bold',sans-serif;
+    font-family: 'Montserrat-bold';
     font-weight: 500;
 }
 .modalPage-subheading{
     font-size: 0.9em;
-    font-family: 'MontserratAlt',sans-serif;
+    font-family: 'MontserratAlt';
     font-weight: 100;
     padding-bottom: 10px;
     text-align: center;
 }
 .modalPage-text{
     font-size: 1.05em;
-    font-family: 'Montserrat-light', sans-serif;
+    font-family: 'Montserrat-light';
     font-weight: 300;
     text-align: center;
     padding-bottom: 20px;

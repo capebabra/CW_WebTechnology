@@ -20,13 +20,13 @@
 .main-heading{
     width: calc(100% - 20%);
     font-size: 1.7em;
-    font-family: 'Montserrat-bold', sans-serif;
+    font-family: 'Montserrat-bold';
     font-weight: 600;
 }
 .main-subheading{
     width: calc(100% - 40%);
     font-size: 0.9em;
-    font-family: 'Montserrat-regular', sans-serif;
+    font-family: 'Montserrat-regular';
     font-weight: 400;
     padding-bottom: 20px;
 }
@@ -61,7 +61,7 @@
 }
 .content__info{
     width: calc(100% - 60%);
-    font-family: 'Montserrat-regular',sans-serif;
+    font-family: 'Montserrat-regular';
     font-weight: 400;
 }
 .details-heading{

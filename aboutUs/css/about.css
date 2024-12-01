@@ -25,12 +25,12 @@
 
 .main-heading{
     font-size: 2em;
-    font-family: 'Montserrat-bold', sans-serif;
+    font-family: 'Montserrat-bold';
     font-weight: 600;
 }
 .main-info{
     font-size: 0.9em;
-    font-family: 'Montserrat-light', sans-serif;
+    font-family: 'Montserrat-light';
     font-weight: 100;
     position: relative;
 }
@@ -68,7 +68,7 @@
 
 .block-heading{
     padding-bottom: 10px;
-    font-family: 'Montserrat-bold',sans-serif;
+    font-family: 'Montserrat-bold';
     font-weight: 400;
     font-size: 2em
 }
@@ -88,7 +88,7 @@
     height: 274px;
 }
 .text{
-    font-family: 'Montserrat-regular',sans-serif;
+    font-family: 'Montserrat-regular';
     font-weight: 200;
 }
 
@@ -109,7 +109,7 @@
 }
 .summary__heading{
     font-size: 2em;
-    font-family: 'Montserrat-bold', sans-serif;
+    font-family: 'Montserrat-bold';
     font-weight: 500;
 }
 
@@ -122,7 +122,7 @@
 
 .list__numberOrder{
     font-size: 3.5em;
-    font-family: 'MontserratAlt',sans-serif;
+    font-family: 'MontserratAlt';
     font-weight: 600;
 }
 
@@ -139,7 +139,7 @@
 }
 .list__info{
     font-size: 1.3em;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat';
     font-weight: 400;
 }
 
@@ -165,7 +165,7 @@
 }
 .list__textInfo{
     font-size: 1.1em;
-    font-family: 'Montserrat-light',sans-serif;
+    font-family: 'Montserrat-light';
     font-weight: 200;
     text-align: center;
 }

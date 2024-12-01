@@ -6,7 +6,7 @@
 }
 
 .member__middleName, .member__name,.member-comment, .testimonials__heading, .questions, .answers  {
-    font-family: 'Montserrat-light',sans-serif;
+    font-family: 'Montserrat-light';
     font-weight: 300;
 }
 /*  Main classes */

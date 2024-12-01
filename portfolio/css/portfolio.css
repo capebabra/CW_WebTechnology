@@ -22,7 +22,7 @@
 .main-heading{
     width: calc(100% - 40%);
     font-size: 1.8em;
-    font-family: 'MontserratAlt',sans-serif;
+    font-family: 'MontserratAlt';
     font-weight: 600;
 }
 
@@ -51,7 +51,7 @@
 
 .slider-heading{
     font-size: 2em;
-    font-family: 'Montserrat-regular',sans-serif;
+    font-family: 'Montserrat-regular';
     font-weight: 500;
     position: absolute;
     padding-top: 100px;
