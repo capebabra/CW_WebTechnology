@@ -54,7 +54,6 @@ body{
 img {
     pointer-events: none;
     -webkit-user-drag: none;
-    user-drag: none;
 }
 
 /* General Classes */
