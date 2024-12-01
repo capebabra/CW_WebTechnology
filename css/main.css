@@ -61,6 +61,8 @@
 }
 .content__info{
     width: calc(100% - 60%);
+    font-family: 'Montserrat-regular',sans-serif;
+    font-weight: 400;
 }
 .details-heading{
     font-size: 1.4em;
@@ -147,5 +149,36 @@
     .details-heading{
         font-size: 2em;
         padding: 10px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .main{
+        justify-content: center;
+        gap: 20px;
+    }
+    .main-contact{
+        width: calc(100% - 75%);
+        font-size: 2em;
+    }
+    .main-heading{
+        font-size: 2.5em;
+    }
+    .main-subheading{
+        font-size: 2em;
+    }
+    .content-elements{
+        display: flex;
+        gap: 20px;
+    }
+    .content__info{
+        font-size: 1.7em;
+    }
+    .details-heading{
+        font-size: 3em;
+        padding: 10px;
+    }
+    .details{
+        gap: 40px;
     }
 }

@@ -154,3 +154,30 @@
         font-size: 2em;
     }
 }
+
+@media (min-width:1400px) {
+    .staff-member{
+        width: 45%;
+    }
+    .staff-member{
+        height: 100%;
+    }
+    .member__middleName{
+        font-size: 2em;
+    }
+    .member__name{
+        font-size: 1.8em;
+    }
+    .member-comment{
+        font-size: 1.4em;
+    }
+    .questions{
+        font-size: 2em;
+    }
+    .answers{
+        font-size: 1.5em;
+    }
+    .testimonials__heading{
+        font-size: 3em;
+    }
+}

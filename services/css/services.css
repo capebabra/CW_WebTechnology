@@ -186,3 +186,27 @@ body.modal__overflow{
         width: calc(100% - 10%);
     }
 }
+
+@media (min-width: 1400px) {
+    .services__description{
+        flex-wrap: wrap;
+    }
+    .services__contact{
+        width: 100%;
+    }
+    .modalPage-text{
+        font-size: 2em;
+    }
+    .main__services{
+        width: calc(100% - 65%);
+    }
+    .services__info{
+        font-size: 1.5em;
+    }
+    .services__description{
+        gap: 50px;
+    }
+    .services__details, .services__contact{
+        font-size: 1.5em;
+    }
+}

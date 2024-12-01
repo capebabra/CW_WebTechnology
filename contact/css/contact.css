@@ -181,3 +181,41 @@
         padding-right: 20px;
     }
 }
+
+@media (min-width:1400px) {
+    .contact__list, .contact__infoImg, .blank-list, .request__inputs{
+        width: 100%;
+    }
+    .contact__infoImg{
+        height: auto;
+    }
+    .request-blank{
+        gap: 30px;
+    }
+    .blank-imgContent, .request-blank{
+        width: 100%;
+    }
+    .values-label, .list__details{
+        font-size: 2em;
+    }
+    .request-heading{
+        font-size: 3em;
+    }
+    .values-input, .values-label{
+        font-size: 2em;
+    }
+    .values-input{
+        padding-right: 40px;
+    }
+    .contact-information, .contact__list{
+        gap: 40px;
+    }
+    .blank__contact{
+        width: 50%;
+        font-size: 2em;
+        margin-bottom: 20px
+    }
+    .list__icon{
+        width: 30px;
+    }
+}

@@ -83,7 +83,7 @@ img {
 }
 
 .semantic-tags{
-    padding: 40px 60px;
+    padding: 40px 120px;
 }
 
 
@@ -189,7 +189,7 @@ img {
         width: calc(100% - 30%);
     }
     .semantic-tags{
-        padding: 30px 50px;
+        padding: 30px 120px;
     }
     .logo{
         width: 60px;
@@ -236,6 +236,31 @@ img {
     }
     .navigation-element{
         font-size: 1.2em;
+    }
+    .footer{
+        border-width: 30px;
+    }
+}
+@media (min-width:1400px) {
+    .layout-navigation{
+        gap: 30px;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+    .navigation{
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+    }
+    .semantic-tags{
+        padding: 30px 120px;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+    .navigation-element{
+        font-size: 2em;
     }
     .footer{
         border-width: 30px;
