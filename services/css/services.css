@@ -142,12 +142,40 @@ body.modal__overflow{
 
 /* Adaptive */
 
+
+@media (min-width: 1400px) {
+    .services__description{
+        flex-wrap: wrap;
+    }
+    .services__contact{
+        width: 100%;
+    }
+    .modalPage-text{
+        font-size: 2em;
+    }
+    .main__services{
+        width: calc(100% - 65%);
+    }
+    .services__info{
+        font-size: 1.5em;
+    }
+    .services__description{
+        gap: 50px;
+    }
+    .services__details, .services__contact{
+        font-size: 1.5em;
+    }
+}
+
 @media (max-width: 1024px) {
     .services__description{
         flex-wrap: wrap;
     }
     .services__contact{
         width: 100%;
+    }
+    .modalPage{
+        width: 90%;
     }
     .modalPage-text{
         font-size: 2em;
@@ -173,37 +201,10 @@ body.modal__overflow{
     .services__contact{
         width: 100%;
     }
-    .modalPage{
-        width: 90%;
-    }
     .modalPage-text{
         font-size: 0.8em;
     }
     .main__services{
         width: calc(100% - 10%);
-    }
-}
-
-@media (min-width: 1400px) {
-    .services__description{
-        flex-wrap: wrap;
-    }
-    .services__contact{
-        width: 100%;
-    }
-    .modalPage-text{
-        font-size: 2em;
-    }
-    .main__services{
-        width: calc(100% - 65%);
-    }
-    .services__info{
-        font-size: 1.5em;
-    }
-    .services__description{
-        gap: 50px;
-    }
-    .services__details, .services__contact{
-        font-size: 1.5em;
     }
 }

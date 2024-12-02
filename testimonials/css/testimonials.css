@@ -25,7 +25,6 @@
     width: 30%;
     border-radius: 10px;
     padding: 20px 15px;
-    height: 160px;
     /* 
     Another version of linear-gradient implementation to border, it won't change the border-radius
 
@@ -101,9 +100,6 @@
     .staff-member{
         width: 40%;
     }
-    .staff-member{
-        height: 100%;
-    }
     .member__middleName{
         font-size: 1.8em;
     }
@@ -132,9 +128,6 @@
     .staff-member{
         width: 100%;
     }
-    .staff-member{
-        height: 100%;
-    }
     .member__middleName{
         font-size: 1.5em;
     }
@@ -158,9 +151,6 @@
 @media (min-width:1400px) {
     .staff-member{
         width: 45%;
-    }
-    .staff-member{
-        height: 100%;
     }
     .member__middleName{
         font-size: 2em;

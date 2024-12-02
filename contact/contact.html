@@ -46,18 +46,18 @@
         <div class="contact-request">
             <h3 class="request-heading animatedEl">Contact us</h3>
             <div class="request-blank">
-                <div class="blank-list">
+                <div class="blank-list" id="blankList">
                     <ul class="request__inputs">
                         <li class="inputs-values">
                             <label for="name" class="values-label animatedEl">Name:</label>
-                            <input type="text" class="values-input animatedEl" name="name" id="name" placeholder="Write your name..." autocomplete="off" >
+                            <input type="text" class="values-input animatedEl" data-key="value1" name="name" id="name" placeholder="Write your name..." autocomplete="off" >
                         </li>
                         <li class="inputs-values">
                             <label class="values-label animatedEl" for="email">Email:</label>
-                            <input type="text" id="email" class="values-input animatedEl" name="email" autocomplete="off" placeholder="Write your email">
+                            <input type="text" id="email" class="values-input animatedEl" data-key="value1" name="email" autocomplete="off" placeholder="Write your email">
                         </li>
                     </ul>
-                    <a href="tel:+23213231238988807550" class="contact blank__contact animatedEl">Contact us</a>
+                    <a href="#blankList" class="contact blank__contact animatedEl">Contact us</a>
                 </div>
                 <div class="blank-imgContent animatedEl">
                     <img src="img/request info.png" alt="request content image" class="blank-img">

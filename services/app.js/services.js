@@ -30,19 +30,23 @@ details.forEach((detail) => {
         const contentType = modalContent[modalKey]
         servicesDesc.classList.toggle('modal__blur')
         document.body.classList.add('modal__overflow')
-        if (contentType) {
+        if (contentType) { 
             modalHeading.textContent = contentType.heading || ''
             modalSub.textContent = contentType.subheading || ''
-            modalText.textContent = contentType.text || ''
+            modalText.textContent = contentType.text || ''  // provides with necessary content in the modalPage
         }
         setTimeout(() => {
-            modalPage.scrollIntoView({behaviour: 'smooth'})
+            modalPage.scrollIntoView({behaviour: 'smooth'}) //provides automatic smooth scroll to modalPage
         }, 300)
     })
 })
 
 modalExit.addEventListener('click', () => {
     modalPage.style.display = 'none'
-    servicesDesc.classList.toggle('modal__blur')
-    document.body.classList.remove('modal__overflow')
+    servicesDesc.classList.toggle('modal__blur') // add or remove modal__blur
+    document.body.classList.remove('modal__overflow') //removes overflow after closing modalPage
 })
+
+
+/* Function for Modal Page activation. After clicking on the details button, the modal page will appear. 
+Depends on the which content button has been clicked the necessary info will be shown there respectively */
