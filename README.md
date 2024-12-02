@@ -2,7 +2,7 @@
 
 Mubrad Buildings is a premier construction company specializing in delivering innovative and high-quality housing solutions. Our team 
 
-image.png
+![Team] (testimonials/img/team.png)
 
 
 comprises highly skilled professionals from around the world, ensuring the use of cutting-edge technologies and advanced construction techniques. 
