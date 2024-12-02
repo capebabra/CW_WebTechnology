@@ -1,6 +1,6 @@
 # CW_WebTechnology
 
-Mubrad Buildings is a premier construction company specializing in delivering innovative and high-quality housing solutions. Our team 
+Mubrad Buildings is a premier construction company specializing in delivering innovative and high-quality housing solutions. Our team: 
 
 ![image Team](https://github.com/capebabra/CW_WebTechnology/blob/main/testimonials/img/team.png?raw=true)
 
