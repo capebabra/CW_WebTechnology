@@ -144,9 +144,6 @@ body.modal__overflow{
 
 
 @media (min-width: 1400px) {
-    .services__description{
-        flex-wrap: wrap;
-    }
     .services__contact{
         width: 100%;
     }
